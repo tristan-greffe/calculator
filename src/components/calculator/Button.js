@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import CalcContext from '../store/CalcContext'
+import CalcContext from '../../store/CalcContext'
 import _ from 'lodash'
 
 function Button({ value }) {

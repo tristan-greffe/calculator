@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import CalcContext from '../store/CalcContext'
+import CalcContext from '../../store/CalcContext'
 import { Textfit } from 'react-textfit'
 
 function Screen() {

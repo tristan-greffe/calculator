@@ -1,26 +1,12 @@
-import Screen from './components/Screen'
-import Button from './components/Button'
-
-const btnValues = [
-  [7, 8, 9],
-  [4, 5, 6],
-  [1, 2, 3],
-  [0, '=', 'C'],
-  ['+', '-', '*']
-]
+import Calculator from './components/calculator'
+import Binary from './components/binary'
 
 function App() {
+
   return (
     <div className="wrapper">
-      <Screen />
-      <div className="buttonBox">
-        {btnValues.flat().map((btn, i) => (
-          <Button
-            value={btn}
-            key={i}
-          />
-        ))}
-      </div>
+      <Calculator />
+      <Binary />
     </div>
   )
 }
