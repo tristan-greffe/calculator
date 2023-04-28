@@ -1,7 +1,7 @@
 # Calculator App
 _CALCULATOR App to learn react.js_
 
-[screen-capture.webm](https://user-images.githubusercontent.com/95054394/235154303-7d996593-d332-44f1-aca5-3e64e1c5debe.webm)
+[screen-capture (1).webm](https://user-images.githubusercontent.com/95054394/235179026-6cf964f5-c1ae-4f4f-81d9-1fbd49b0374a.webm)
 
 ## 📦 Setup
 
