@@ -13,7 +13,7 @@ const btnValues = [
 
 function Calculator() {
   return (
-    <React.Fragment>
+    <div className="wrapper">
       <Screen />
       <div className="buttonBox">
         {btnValues.flat().map((btn, i) => (
@@ -23,7 +23,7 @@ function Calculator() {
           />
         ))}
       </div>
-    </React.Fragment>
+    </div>
 
   )
 }

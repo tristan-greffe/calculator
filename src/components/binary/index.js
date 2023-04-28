@@ -17,7 +17,7 @@ function Binary() {
   }
 
   return (
-    <React.Fragment>
+    <div className="wrapper">
       {focus === 'BINARY NUMBER'&&
         <React.Fragment>
           <BaseNumberInput handleFocus={handleFocus} onChangeBase={handleChange} placeholder={'DECIMAL NUMBER'} value={decimalNumber} />
@@ -30,7 +30,7 @@ function Binary() {
           <BaseNumberInput handleFocus={handleFocus} onChangeBase={handleChange} placeholder={'BINARY NUMBER'} value={binaryNumber} />
         </React.Fragment>
       }      
-    </React.Fragment>
+    </div>
   )
 }
 
