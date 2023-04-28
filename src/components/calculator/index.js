@@ -1,7 +1,6 @@
 import React from 'react'
 import Screen from './Screen'
 import Button from './Button'
-import _ from 'lodash'
 
 const btnValues = [
   [7, 8, 9],

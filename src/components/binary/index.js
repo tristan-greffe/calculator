@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import BaseNumberInput from './BaseNumberInput'
 import _ from 'lodash'
 
